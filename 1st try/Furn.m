@@ -1,6 +1,6 @@
 function [furn] = Furn(room)
-%Definir dimensões
-%   Define dimensões e posição de um móvel (2D)
+%Furniture
+%   Defines furnitures position and dimensions (2D)
 
 x2 = input("Give me the furniture's 1st corner:\n x: ");
 while ((x2 < room(1)) || (x2 > room(3)+room(1)))

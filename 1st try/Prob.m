@@ -1,3 +1,5 @@
+%Creates the room, the furniture and the sound source
+
 %creating the room
 room = Room();
 R = [room(1) room(2); (room(1)+room(3)) (room(2)+room(4))];

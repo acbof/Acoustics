@@ -1,6 +1,6 @@
 function [room] = Room()
-%Definir dimensões
-%   Define dimensões de uma sala (2D)
+%Room
+%   Defines a rooms dimensions (2D)
 x1=0;
 y1=0;
 l1=0;
