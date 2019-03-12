@@ -1,0 +1,3 @@
+function F = F(furn,i)
+F = [furn(i,1) furn(i,2); (furn(1)+furn(3)) (furn(2)+furn(4))];
+end

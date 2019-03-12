@@ -1,0 +1,20 @@
+room = Room();
+% n is the number of furniture
+n = 2;
+furn = zeros(n,4);
+for i = 1:n
+    furn(i,:) = Furn(room);
+end
+
+%f is the position of the sound source
+f = [1,1];
+
+figure(1)
+hold on
+rectangle('Position',room, 'Facecolor', [.5 .5 .5], 'LineWidth', 2);
+for i = 1:n
+    rectangle('Position',furn(i,:), 'Facecolor', 'k');
+end
+plot(1,1, 'x', Linewidth);
+axis off
+hold off
